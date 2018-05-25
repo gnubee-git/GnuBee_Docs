@@ -45,7 +45,7 @@ You can use `fdisk` paritioning tool or partition the HD on another system. For 
 
 Afterward run in the shell run the following commands
 
-     wget --no-check-certificate https://raw.githubusercontent.com/gnubee-git/GnuBee_Docs/master/GB-PC1/scripts/jessie_3.10.14/debian-jessie-install
+     wget --no-check-certificate https://raw.githubusercontent.com/gnubee-git/GnuBee_Docs/master/GB-PCx/scripts/jessie_3.10.14/debian-jessie-install
      sh debian-jessie-install
 
 You will be asked where (what device) to install debian on. In my case I used /dev/sda2. You find the complete log [here](logs/install_debian.log).
