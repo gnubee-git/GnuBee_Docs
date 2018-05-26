@@ -1,9 +1,17 @@
 ---
 layout: default
-title: Background information for GnuBee PC 1
+title: Background information for GnuBee PC 1 and 2
 ---
 
-## HW  / SW
+## Hardware and software
+
+The GnuBee Personal Cloud One and Two come pre-installed with LibreCMC. While this operating system provides basic functionality, there are some problems with this copy of LibreCMC, such as not being able to install additional packages. Due to limited time, LibreCMC is also not being actively supported for the device. Instead we strongly recommend installing either OpenMediaVault or Debian.
+
+Choose OpenMediaVault if you would simply like a fully-functioning NAS device for end users. Keep in mind that the configuration interface is still quite limited.
+
+Choose Debian if you would prefer to tinker with the device and configure your own software.
+
+While OpenWRT (now merged with the LEDE project) is not yet recommended, the upcoming release of OpenWRT 18.06 (June) is expected to provide significantly improved support and is likely to become the recommended option for end users.
 
 Assuming that you have GnuBee PC1 without any upgraded firmware nor installed linux distribution you have two choices using the built-in webserver or using a USB-stick.
 
