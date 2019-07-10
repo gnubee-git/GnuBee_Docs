@@ -22,7 +22,7 @@ iface lo inet loopback
 
 auto eth0.1
 iface eth0.1 inet static   
-    address 192.168.1.1
+    address 192.168.10.1
     netmask 255.255.255.0  
 
 auto eth0.2
